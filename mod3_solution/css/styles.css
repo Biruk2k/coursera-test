@@ -197,7 +197,7 @@ font-size: 0.8em;
 	width: 25px;
 	height: 25px;
 	border-radius:12.5px;
-	background: lightgray;
+	background: white;
 	bottom: 15px;
 	right: 15px;
 	text-decoration: none;
@@ -208,7 +208,7 @@ font-size: 0.8em;
 }
 .gotopbtn a:hover ,.gotopbtn a:force {
 	text-decoration: none;
-	color: gray;
+	color: white;
 }
 
 .gotopbtn span:hover {
@@ -217,7 +217,7 @@ font-size: 0.8em;
 }
 a:hover,a:focus {
   color: gray;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* END HOME PAGE */
