@@ -1,29 +1,24 @@
 html {
-	scroll-behavior: smooth;
-}
+	   scroll-behavior: smooth;
+     }
 *{
 	box-sizing:border-box;
-}
+ }
 body{
 	background: white;
 	margin: 0;
-
 }
-
-
 /**header**/
 #header-nav {
 	background-color: gray;
-
-	margin: 0px;
+    margin: 0px;
 	padding-left: 0px;
 	border-radius: 0;
-	border: 10;
+	border: 1 ;
 	border-color: black;
 }
 .container {
-	margin: 0;
-	
+	margin: 0;	
 }
 /** top name**/
 .navbar-brand h1{
@@ -34,9 +29,6 @@ body{
     margin-top: 0px;
     text-align: left;
     padding-left: 10px;
-	
-	
-
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
@@ -47,7 +39,6 @@ body{
 	margin-bottom: 0;
 	border-color: white;
 	border: 10px;
-
 }
 
 #nav-list a{
@@ -55,32 +46,21 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-weight:400 ;
 	font-style: italic;
-	color: black;
-	text-align: center;
-	
-    
-	
+	color: yellow;
+	text-align: center;	
 }
 #nav-list a:hover{
-	background:white;
-	opacity: 0.5;
-
-}
- li  {
- 	position: relative;
-	border: 3px;
-
+	background:black;
+	opacity: 0.3;
 }
 #nav-list a span{
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.5em;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
 	background-color: black;
-	
-
-
 }
 
 /** end of header**/
@@ -90,14 +70,9 @@ body{
 	margin-right: 0;
 	margin-left: 0;
 	padding: 10px;
- 
-
 }
 #main-content div {
-	margin: 0,0,0,0;
-    
-}
-
+	margin: 0,0,0,0;    
 }
 #jumbtron {
 	margin: 0,0,0,0;
@@ -112,14 +87,11 @@ body{
 	text-align: center;
 	font-weight: 800;
 	margin-bottom: 25px;
-
 }
 #chicken  {
 	font-weight: 500;
 	text-align: center;
-	background: gray;
-
-	
+	background: gray;	
 }
 #chicken h3{
 	margin: 10px;
@@ -163,22 +135,21 @@ body{
 	font-weight:100 ;
 	font-style: italic;
 	color: yellow;
-font-size: 0.8em;
+    font-size: 0.8em;
 }
 #ola  {
-
 	font-weight: 400;
 	text-align: center;
 	background: gray;
 	margin: 0;
-}
+    }
 #ola h3{
 	margin: 10px;
 	margin-bottom: 20px;
 	font-weight: 700;
 	font-style: bold;
 	padding:  10px;
-}
+    }
 
 #ola #text{
 	text-align: left;
@@ -190,7 +161,7 @@ font-size: 0.8em;
 	font-style: italic;
 	color: yellow;
     font-size: 0.8em;
-}
+   }
 
 .gotopbtn {
 	position: fixed;
@@ -204,8 +175,7 @@ font-size: 0.8em;
 	text-align: center;
 	line-height: 25px;
 	color: black;
-
-}
+    }
 .gotopbtn a:hover ,.gotopbtn a:force {
 	text-decoration: none;
 	color: white;
@@ -223,15 +193,17 @@ a:hover,a:focus {
 /* END HOME PAGE */
 /********** Large devices only **********/
 @media (min-width: 1200px){
-	
-
-	
-
+#main-content  {
+	width: 100%
+        }
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px){
-	
+@media (min-width: 992px) and (max-width: 1199px)
+{
+		#main-content  {
+	width: 100%
+        }
 }
 
     
