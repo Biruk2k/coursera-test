@@ -1,0 +1,260 @@
+html {
+	scroll-behavior: smooth;
+}
+*{
+	box-sizing:border-box;
+}
+body{
+	background: lightgray;
+	margin: 0;
+
+}
+
+
+/**header**/
+#header-nav {
+	background-color: gray;
+
+	margin: 0px;
+	padding-left: 0px;
+	border-radius: 0;
+	border: 10;
+	border-color: black;
+}
+.container {
+	margin: 0;
+	
+}
+/** top name**/
+.navbar-brand h1{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-weight:800;
+	font-size: 1.7em;
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 10px;
+	
+	
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	background-color: lightgray;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-color: white;
+	border: 10px;
+
+}
+
+#nav-list a{
+    
+	font-family: 'Poppins', sans-serif;
+	font-weight:400 ;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	
+    
+	
+}
+#nav-list a:hover{
+	background:white;
+	opacity: 0.5;
+
+}
+ li  {
+ 	position: relative;
+	border: 3px;
+
+}
+#nav-list a span{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	background-color: black;
+	
+
+
+}
+
+/** end of header**/
+
+/** main content**/
+#main-content {
+	margin-right: 0;
+	margin-left: 0;
+	padding: 10px;
+ 
+
+}
+#main-content div {
+	margin: 0,0,0,0;
+    
+}
+
+}
+#jumbtron {
+	margin: 0,0,0,0;
+	margin-bottom: 10px;
+}
+#all {
+	width: 100%;
+
+}
+#title {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 25px;
+
+}
+#chicken  {
+	font-weight: 500;
+	text-align: center;
+	background: gray;
+
+	
+}
+#chicken h3{
+	margin: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-style: bold;
+	padding: 10px;
+}
+
+#chicken #text{
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:100 ;
+	font-style: italic;
+	color: yellow;
+	font-size: 0.8em;
+}
+#bruh  {
+	font-weight: 400;
+	text-align: center;
+	background: gray;
+	margin: 0;
+}
+#bruh h3{
+	margin: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-style: bold;
+	padding:  10px;
+}
+
+#bruh #text{
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:100 ;
+	font-style: italic;
+	color: yellow;
+font-size: 0.8em;
+}
+#ola  {
+
+	font-weight: 400;
+	text-align: center;
+	background: gray;
+	margin: 0;
+}
+#ola h3{
+	margin: 10px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-style: bold;
+	padding:  10px;
+}
+
+#ola #text{
+	text-align: left;
+	padding: 5px;
+	margin: 5px;
+	font-weight: 100;
+	font-family: 'Poppins', sans-serif;
+	font-weight:100 ;
+	font-style: italic;
+	color: yellow;
+    font-size: 0.8em;
+}
+
+.gotopbtn {
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	border-radius:12.5px;
+	background: lightgray;
+	bottom: 15px;
+	right: 15px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 25px;
+	color: black;
+
+}
+.gotopbtn a:hover ,.gotopbtn a:force {
+	text-decoration: none;
+	color: gray;
+}
+
+.gotopbtn span:hover {
+	color: gray;
+
+}
+a:hover,a:focus {
+  color: gray;
+  text-decoration: underline;
+}
+
+/* END HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px){
+	
+
+	
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+	
+}
+
+    
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	#main-content  {
+	margin: 0,0,0,0;
+    padding: 20px;
+    padding-top: 0px
+}
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+ #main-content  {
+ 	padding: 50px;
+ 	padding-top: 0px;
+
+ }
+}
+
+
